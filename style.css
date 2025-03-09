@@ -44,6 +44,12 @@ header {
     gap: 30px;
 }
 
+.card img {
+    width: 294px;
+    height: 366px;
+    object-fit: cover;
+}
+
 .text-container {
     display: grid;
     gap: 8px;
