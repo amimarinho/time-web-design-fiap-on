@@ -32,7 +32,10 @@ body {
     background-color: var(--color-primary);
     height: 60px;
     width: 100%;
-
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    padding-left: 60px;
 }
 
 .container {
@@ -40,7 +43,7 @@ body {
     padding-block: 80px 100px;
     display: grid;
     gap: 48px;
-
+    justify-content: center;
 }
 
 .image {
@@ -69,6 +72,7 @@ body {
 .about-me {
     display: grid;
     gap: 16px;
+    max-width: 72ch;
 }
 
 .about-me strong {
@@ -86,13 +90,26 @@ body {
 
 }
 
-.list-formation {
+.list-information {
     display: grid;
     gap:32px;
 }
 .button {
     padding-inline: 16px;
     padding-block: 8px;
+    border: 2px;
+    width: fit-content;
+}
+
+.button-about {
+    padding-inline: 16px;
+    padding-block: 8px;
     border: 2px dashed var(--color-primary);
     width: fit-content;
+    margin-top: 24px;
+}
+.title {
+    color:var(--color-primary);
+    font-size: 72px;
+
 }
