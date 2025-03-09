@@ -13,7 +13,7 @@ ul {
 }
 
 :root{
-    --color-primary:#F54E26
+    --color-primary:#F54E26;
     --color-text: #FFFFFF;
     --color-bg: #272727;
     --font: "Open Sans", sans-serif;
@@ -28,8 +28,71 @@ body {
     padding-bottom: 60px;
 }
 
-header {
+.top-decorate {
     background-color: var(--color-primary);
-    padding-block: 38px;
-    padding-inline: 90px;
+    height: 60px;
+    width: 100%;
+
+}
+
+.container {
+    padding-inline: 60px;
+    padding-block: 80px 100px;
+    display: grid;
+    gap: 48px;
+
+}
+
+.image {
+    height: 360px;
+    width: 300px;
+    object-fit: cover;
+    object-position: 0 -40px;
+    border-radius: 8px;
+}
+
+.header {
+    display: grid;
+    gap: 40px;
+}
+
+.header-content {
+    display: grid;
+    gap: 8px;
+    color: var(--color-primary);
+}
+
+.header-content h1 {
+    margin-bottom: 16px;
+}
+
+.about-me {
+    display: grid;
+    gap: 16px;
+}
+
+.about-me strong {
+    color:var(--color-primary);
+
+}
+.list {
+    display: grid;
+    gap: 16px;
+
+}
+
+.list h2 {
+    color: var(--color-primary);
+
+}
+
+.list-formation {
+    display: grid;
+    gap:32px;
+}
+.button {
+    padding-inline: 16px;
+    padding-block: 8px;
+    border: 2px dashed var(--color-primary);
+    width: fit-content;
 }
